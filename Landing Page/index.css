@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&family=Frank+Ruhl+Libre:wght@300;400&family=Mukta:wght@300&family=Tajawal&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+}
+.container {
+  max-width: 80vw;
+  font-family: "Croissant One", cursive;
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Tajawal", sans-serif;
+}
+.join {
+  font-size: 45px;
+}
+.navbar {
+  display: flex;
+  height: 67px;
+
+  font-family: "Croissant One", cursive;
+  font-family: "Frank Ruhl Libre", serif;
+  font-family: "Mukta", sans-serif;
+  font-family: "Tajawal", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(211, 23, 136);
+}
+
+.navbar li {
+  list-style: none;
+  margin: 0 12px;
+}
+.topleft {
+  width: 50%;
+}
+.topright {
+  margin-top: 5px;
+  padding-top: 9pxs;
+  width: 50%;
+}
+.topright img {
+  border: 2px solid black;
+  border-radius: 90px;
+}
+.section1 {
+  min-height: 100vh;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+.section2 {
+  padding-left: 63px;
+  padding-right: 63px;
+  padding-bottom: 63px;
+}
+.section2 h1 {
+  font-size: 2 rem;
+  text-align: center;
+}
+
+.box {
+  padding: 8px 0;
+  margin: 9px 15px;
+  min-width: 23vw;
+  border: 2px solid rgb(211, 23, 136);
+  border-radius: 10px;
+  text-align: center;
+}
+.box h2 {
+  padding: 12px 0;
+}
+.highlighted {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.box ul {
+  list-style-type: none;
+}
+.box ul li {
+  margin: 12px;
+}
+footer {
+  padding: 23px;
+}
